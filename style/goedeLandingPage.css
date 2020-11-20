@@ -3,16 +3,21 @@
     padding: 0;
 }
 
+:root {
+    color: rgb(235, 235, 235);
+}
+
 body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    text-align: center;
+    background-color: rgb(44, 44, 44);
 }
 
 .HERO {
-    margin-top: 5rem;
+    margin-top: 2rem;
+    align-items: center;
+    text-align: center;
 }
 
 .HERO .main {
@@ -35,4 +40,18 @@ body {
 .HERO .extra:hover {
     color: rgb(207, 0, 0);
     font-size: 19px;
+}
+
+.points-list {
+    margin-top: 1rem;
+    margin-left: 3rem;
+    width: 30%;
+}
+
+.points {
+    margin-bottom: 1rem;
+}
+
+.points-list p {
+    margin-left: 0.5rem;
 }
