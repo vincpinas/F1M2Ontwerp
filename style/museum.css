@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    color: white;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin-right: 5rem;
+}
+
+.nav-item, .nav-item a {
+    text-decoration: none;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 10px 10px;
+    transition: all 0.4s ease 0s;
+    color: rgb(197, 197, 197);
+}
+
+.nav-item a:hover {
+    color: lime;
+}
+
+.title{
+    margin-top: 1.5rem;
+    text-align: center;
+    color: lime;
+    font-size: 60px;
+}
+
+img {
+    position: fixed;
+    max-width: 100%;
+    z-index: -1;
+}
+
+.kenmerken {
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.kenmerk-list {
+    list-style-type: none;
+    padding: 0.7rem;
+    background-color: rgb(19, 19, 19);
+    text-align: center;
+}
+
+.kenmerk {
+    font-size: 17px;
+    padding: 8px;
+}
+
+.HERO {
+    display: flex;
+    flex-direction: row;
+}
+
+.description {
+    max-width: 30%;
+    margin-left: 20%;
+    margin-top: 2.5rem;
+    background-color: rgb(19, 19, 19);
+    text-align: center;
+    padding: 1.4rem;
+}
+
+@media (min-width: 100px) and (max-width: 600px) {
+    body {
+        font-size: smaller;
+    }
+}
+
