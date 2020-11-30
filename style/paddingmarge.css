@@ -1,0 +1,88 @@
+* {
+    font-family: sans-serif;
+    font-size: 23px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    min-height: 1000px;
+    background-image: url("../les4PaddingMarge/LetItBe_0.jpg");
+    background-repeat: no-repeat;
+    color: white;
+    padding-top: 60px;
+}
+
+.beatle {
+    width: 200px;
+    margin-top: 100px;
+    color: rgb(228, 228, 228);
+}
+
+#john {
+    margin-left: 120px;
+    padding-top: 400px;
+    padding-left: 260px;
+}
+
+#john .naam {
+    margin-left: 80px;
+}
+
+#paul {
+    margin-left: 605px;
+    margin-top: -460px;
+    padding-left: 265px;
+    padding-top: 400px;
+}
+
+#paul .naam {
+    margin-left: 50px;
+}
+
+#ring {
+    margin-left: 120px;
+    padding-left: 260px;
+    margin-top: 25px;
+    padding-top: 360px;
+}
+
+#ring .naam {
+    margin-left: 110px;
+}
+
+#george {
+    margin-left: 605px;
+    margin-top: -420px;
+    padding-left: 270px;
+    padding-top: 360px;
+}
+
+#george .naam {
+    margin-left: 70px;
+}
+
+h3, p{
+    margin: 0;
+    padding: 0;
+}
+
+.naam {
+    border-left: solid 11px red;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+.beatle .naam {
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.beatle:hover .naam {
+    opacity: 100;
+}
