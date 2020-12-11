@@ -7,17 +7,28 @@
     <title>Museum NEMO</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <style>
+        body {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
         main {
+            flex-grow: 3 0 auto;
+            display: flex;
             padding: 0 1%;
         }
         section {
-            width: 23%;
-            float: left;
+            flex: 1 0 13%;
             padding: 20px;
-            margin: 1%;
+            margin: 0 1%;
         }
-        footer {
-            clear: left;
+
+        h1, footer {
+            flex: 1 0 auto;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
         }
     </style>
 </head>
@@ -30,7 +41,7 @@
             <li class="nav-item"><a href="flex.html">FlexBox</a></li>
         </ul>
     </div>
-    <h1 id="title">Display - Block</h1>
+    <h1 id="title">Display - Flex</h1>
     <main>
         <section class="description">
             <p>NEMO is een musea gericht naar de jeugd, ouders kunnen hier hun kinderen mee naar toe nemen, niet alleen voor een dagje pret maar ook voor een dagje leren!

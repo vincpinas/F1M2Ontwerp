@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+
+/* Global */
 * {
     padding: 0;
     margin: 0;
@@ -7,26 +9,35 @@
     font-family: 'Poppins',sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 :root {
-    color: white;
-    font-family: sans-serif;
+    color: rgb(208, 208, 208);
 }
 
 body {
     background-color: black;
 }
 
-.nav {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+section {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
+#title {
+    color: rgb(16, 16, 16);
+    background-color: lime;
+    font-size: 20px;
+}
+
+/* Nav's  */
 .navigation {
     display: flex;
-    flex-direction: row;
     list-style-type: none;
     margin-right: 5rem;
+    flex-direction: row;
 }
 
 .nav-item, .nav-item a {
@@ -42,10 +53,6 @@ body {
     color: lime;
 }
 
-a {
-    text-decoration: none;
-}
-
 .title{
     margin-top: 1.5rem;
     text-align: center;
@@ -53,63 +60,44 @@ a {
     font-size: 60px;
 }
 
+
+
+
+
+/* imgs */
 img {
-    position: fixed;
     max-width: 100%;
-    z-index: -1;
 }
 
-.kenmerken {
-    margin-left: 2rem;
-    margin-top: 2rem;
+
+footer {
+    background-color: rgb(44, 44, 44);
+    color: white;
+    padding: 10px 30px;
 }
+
+
+/* Kenmerken */
 
 .kenmerk-list {
     list-style-type: none;
     padding: 0.7rem;
-    background-color: rgb(19, 19, 19);
-    text-align: center;
 }
 
 .kenmerk {
     font-size: 17px;
-    padding: 8px;
+    padding: 3px;
 }
 
-.HERO {
-    display: flex;
-    flex-direction: row;
-}
 
-.description {
-    max-width: 30%;
-    margin-left: 20%;
-    margin-top: 2.5rem;
-    background-color: rgb(19, 19, 19);
-    text-align: center;
-    padding: 1.4rem;
-}
-
+/* footer */
 footer .box {
     text-align: center;
     margin-right: 100px;
 }
 
-footer {
-    position: fixed;
-    display: flex;
-    flex-direction: row;
-    padding: 10px;
-    width: 100%;
-    background-color: black;
-    justify-content: center;
-    align-items: center;
-    bottom: 0;
-    margin-top: 5rem;
-}
-
-footer .socials a {
-    color: white;
+.socials a {
+    color: rgb(237, 237, 237);
     font-size: 20px;
     transition: all .7s;
 }
@@ -118,18 +106,11 @@ footer .socials a {
     text-transform: uppercase;
 }
 
-footer .socials a:hover {
+.socials a:hover {
     color: lime;
 }
 
-footer .socials a:not(:last-child) {
+.socials a:not(:last-child) {
     margin-right: 10px;
-}
-
-@media (min-width: 100px) and (max-width: 600px) {
-    body {
-        font-size: smaller;
-    }
-
 }
 
