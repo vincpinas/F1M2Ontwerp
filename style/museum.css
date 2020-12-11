@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
 }
 
 :root {
@@ -87,10 +90,46 @@ img {
     padding: 1.4rem;
 }
 
+footer .box {
+    text-align: center;
+    margin-right: 100px;
+}
+
+footer {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    width: 100%;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    margin-top: 5rem;
+}
+
+footer .socials a {
+    color: white;
+    font-size: 20px;
+    transition: all .7s;
+}
+
+#IMPORTANT {
+    text-transform: uppercase;
+}
+
+footer .socials a:hover {
+    color: lime;
+}
+
+footer .socials a:not(:last-child) {
+    margin-right: 10px;
+}
 
 @media (min-width: 100px) and (max-width: 600px) {
     body {
         font-size: smaller;
     }
+
 }
 
