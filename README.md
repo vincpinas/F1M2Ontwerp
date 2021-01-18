@@ -4,9 +4,10 @@
 #
 #### 📦 ***Live links*** 📦
 * Les 1 - Goede Landing Page: ***[Landing Page]***
-* Les 2 - Museum Opdracht   : ***[Museum]*** 
-* Les 4 - Padding / Marge   : ***[Padding Marge]***
-* Les 6 - Bootstrap         : ***[Bootstrap]***
+* Les 2/4/6 - Museum Opdracht   : ***[Museum]*** 
+* Les 3 - Padding / Marge   : ***[Padding Marge]***
+* Les 5 - Menu & Validatie : ***[Validatie]***
+* Les 7 - Bootstrap         : ***[Bootstrap]***
 
 
 
@@ -16,5 +17,7 @@
 [Museum]: http://30472.hosts1.ma-cloud.nl/F1M2Ontwerp/Les2Museum/index.html
 
 [Padding Marge]: http://30472.hosts1.ma-cloud.nl/F1M2Ontwerp/Les4PaddingMarge/index.html
+
+[Validatie]: http://30472.hosts1.ma-cloud.nl/F1M2BO
 
 [Bootstrap]: http://30472.hosts1.ma-cloud.nl/F1M2Ontwerp/Les6Bootstrap/index.html
